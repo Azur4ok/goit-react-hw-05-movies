@@ -1,0 +1,8 @@
+.li:hover {
+    transform: scale(1.01);
+}
+
+.poster {
+    width: 80%;
+    height: 80%;
+}

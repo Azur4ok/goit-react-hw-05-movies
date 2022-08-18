@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    padding-bottom: 24px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 60px;
+}

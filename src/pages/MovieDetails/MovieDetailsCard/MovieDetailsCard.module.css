@@ -1,0 +1,39 @@
+.btn {
+    background-color: #fff;
+    border: none;
+    padding: 13px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+}
+
+.card_info {
+    padding: 0 30px;
+}
+
+.img {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.title {
+    margin: 0 0 20px 0;
+}
+
+.genres {
+    list-style: none;
+    display: flex;
+}
+
+.description {
+    width: 60%;
+}
+
+.genres > li {
+    font-size: 15px;
+    margin-right: 10px;
+}

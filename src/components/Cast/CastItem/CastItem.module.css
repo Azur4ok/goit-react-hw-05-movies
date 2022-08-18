@@ -1,0 +1,12 @@
+.item {
+    cursor: pointer;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+.img {
+    width: 50%;
+    border-radius: 5px;
+}
