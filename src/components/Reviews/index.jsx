@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import React from 'react';
 
 import { fetchReviews } from 'axios/fetchData';
-import { ReviewItem } from './ReviewItem/index';
+import { ReviewItem } from './ReviewsItem/index';
 import styles from './Reviews.module.css';
 
 const Reviews = () => {

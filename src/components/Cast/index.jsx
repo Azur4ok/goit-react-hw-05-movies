@@ -5,7 +5,7 @@ import { fetchCastsData } from 'helpers';
 import { CastItem } from './CastItem';
 import styles from './Cast.module.css';
 
-export default function Cast() {
+const Cast = () => {
   const { id } = useParams();
   const [casts, setCasts] = useState({});
 
@@ -32,3 +32,5 @@ export default function Cast() {
     </>
   );
 }
+
+export default Cast
